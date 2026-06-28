@@ -1,4 +1,4 @@
-```md
+
 # 📜 Changelog
 
 All notable changes to **MultiMax AI Growth Studio** will be documented in this file.
@@ -183,6 +183,5 @@ Thank you for supporting **MultiMax AI Growth Studio**.
 
 Together, we're building the future of **AI-powered business growth**.
 
-> **Beyond Tech. Beyond Limit. 🚀**
-```
+> **Beyond Tech. Beyond Limit. 🚀
 
