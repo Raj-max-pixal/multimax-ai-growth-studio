@@ -1,4 +1,4 @@
-# 🚀 MultiMax AI Growth Studio
+                                                   
 
 <div align="center">
 
