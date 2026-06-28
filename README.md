@@ -1,273 +1,711 @@
-# MultiMax AI Growth Studio
+<p align="center">
 
-A production-ready AI-powered marketing platform for startups and small businesses. Generate marketing strategies, create AI content, plan campaigns, estimate ROI, and analyze marketing performance.
+<img src="docs/banner.png" width="100%"/>
 
-## Features
+</p>
 
-- **AI Business Analyzer**: Generate SWOT analysis, customer personas, marketing strategies, and competitor insights
-- **Content Generator**: Create engaging content for Instagram, LinkedIn, Facebook, Twitter, blogs, emails, and ads
-- **Campaign Planner**: Generate 7-day, 30-day, festival, and product launch campaign plans
-- **ROI Predictor**: Estimate reach, clicks, conversions, and ROI for campaigns before spending
-- **Analytics Dashboard**: Track campaign performance, content engagement, and growth trends
-- **AI Marketing Assistant**: Chat with an AI marketing expert that knows your business
-- **Dark/Light Mode**: Toggle between themes for comfortable viewing
-- **Demo Mode**: Works without Firebase/Gemini API for testing and demos
-- **Mobile Responsive**: Fully responsive design with mobile sidebar
-- **Toast Notifications**: User-friendly success/error feedback
+<h1 align="center">
+🚀 MultiMax AI Growth Studio
+</h1>
 
-## Tech Stack
+<p align="center">
 
-- **Frontend**: Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS
-- **UI Components**: shadcn/ui, Lucide React
-- **Charts**: Recharts
-- **Backend**: Next.js API Routes
-- **Database**: Firebase Firestore
-- **Authentication**: Firebase Authentication
-- **AI**: Google Gemini API
-- **Hosting**: Vercel
+<b>AI-Powered Marketing Platform for Startups, Businesses & Creators</b>
 
-## Prerequisites
+</p>
 
-- Node.js 18+ installed
-- npm or yarn package manager
-- Firebase account (for production use)
-- Google AI Studio account (for AI features)
+<p align="center">
 
-## Quick Start (Demo Mode)
+Generate Marketing Strategies • AI Content • Campaigns • Analytics • ROI Prediction
 
-The app works in **Demo Mode** without any configuration. Simply:
+</p>
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd "MultiMax AI Growth Studio"
-   ```
+<p align="center">
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+<a href="https://multimax-ai-growth-studio.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-blue?style=for-the-badge"/>
+</a>
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+<a href="#">
+<img src="https://img.shields.io/badge/🎥_Demo_Video-Watch-red?style=for-the-badge"/>
+</a>
 
-4. Open [http://localhost:3000](http://localhost:3000) and click "Try Demo" to explore all features with mock data.
+<a href="#">
+<img src="https://img.shields.io/badge/📚_Documentation-Read-success?style=for-the-badge"/>
+</a>
 
-## Production Setup (Firebase + Gemini)
+<a href="#">
+<img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github"/>
+</a>
 
-For full functionality with real authentication and AI:
+</p>
 
-### Step 1: Firebase Setup
+---
 
-1. **Create Firebase Project**
-   - Go to [Firebase Console](https://console.firebase.google.com/)
-   - Click "Add project"
-   - Enter project name (e.g., "multimax-ai-growth-studio")
-   - Accept Firebase terms and continue
-   - Choose your Google Analytics account (optional)
+<p align="center">
 
-2. **Enable Authentication**
-   - Go to "Build" → "Authentication"
-   - Click "Get Started"
-   - Enable "Email/Password" sign-in provider
-   - Click "Save"
+<img src="https://img.shields.io/github/stars/YOUR_USERNAME/multimax-ai-growth-studio?style=social"/>
+<img src="https://img.shields.io/github/forks/YOUR_USERNAME/multimax-ai-growth-studio?style=social"/>
+<img src="https://img.shields.io/github/watchers/YOUR_USERNAME/multimax-ai-growth-studio?style=social"/>
 
-3. **Create Firestore Database**
-   - Go to "Build" → "Firestore Database"
-   - Click "Create database"
-   - Choose a location (e.g., nam5 (us-central))
-   - Select "Start in Test Mode" (we'll update rules later)
-   - Click "Create"
+</p>
 
-4. **Get Firebase Configuration**
-   - Go to Project Settings (gear icon)
-   - Scroll down to "Your apps"
-   - Click web icon (</>)
-   - Register app with name "multimax-web"
-   - Copy the firebaseConfig values
+---
 
-### Step 2: Gemini API Setup
+## ✨ Overview
 
-1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
-2. Create a new API key
-3. Copy the API key
+MultiMax AI Growth Studio is an **AI-powered all-in-one marketing platform** built to help startups, creators, freelancers, and businesses grow faster through intelligent automation.
 
-### Step 3: Configure Environment Variables
+Instead of switching between multiple tools, users can generate business strategies, create marketing content, plan campaigns, predict ROI, analyze competitors, and monitor performance—all from a single modern dashboard.
 
-Create a `.env.local` file in the root directory:
+Designed with **Next.js 15**, **Firebase**, **Gemini AI**, and **TypeScript**, MultiMax combines enterprise-level functionality with an intuitive user experience.
+
+---
+
+# 🚀 Why Choose MultiMax?
+
+| Feature | Description |
+|----------|-------------|
+| 🤖 AI Business Analysis | SWOT, Personas & Strategy |
+| ✍ AI Content Generator | Blogs, Ads & Social Posts |
+| 📅 Campaign Planner | Marketing Roadmaps |
+| 📊 Analytics Dashboard | Business Insights |
+| 💰 ROI Predictor | Estimate Campaign Success |
+| 💬 AI Assistant | Marketing Expert Chat |
+| 🌙 Dark Mode | Modern Experience |
+| 📱 Responsive | Mobile + Desktop |
+
+---
+
+# 🏆 Project Highlights
+
+✨ Enterprise UI
+
+🚀 Production Ready
+
+🤖 AI Powered
+
+🔐 Firebase Authentication
+
+📊 Real-Time Analytics
+
+⚡ Next.js 15
+
+☁️ Vercel Deployment
+
+🎨 Modern Dashboard
+
+📱 Responsive
+
+🌍 Cloud Ready
+
+---
+
+# 📸 Preview
+
+> Replace these images with actual screenshots after deployment.
+
+
+
+
+
+----
+---
+
+# 🛠️ Tech Stack
+
+<div align="center">
+
+| Category                   | Technologies                       |
+| -------------------------- | ---------------------------------- |
+| 🎨 Frontend                | Next.js 15 • React 19 • TypeScript |
+| 💅 Styling                 | Tailwind CSS • shadcn/ui           |
+| 🔥 Backend                 | Next.js API Routes                 |
+| ☁️ Database                | Firebase Firestore                 |
+| 🔐 Authentication          | Firebase Authentication            |
+| 🤖 Artificial Intelligence | Google Gemini AI                   |
+| 📊 Charts                  | Recharts                           |
+| 🚀 Deployment              | Vercel                             |
+| 🛠️ Version Control        | Git & GitHub                       |
+
+</div>
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                    🌐 User
+                       │
+                       ▼
+              Next.js Frontend
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+ Firebase Auth   Gemini AI API   Firestore DB
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+            AI Marketing Dashboard
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+MultiMax AI Growth Studio
+│
+├── src
+│   ├── app
+│   │   ├── auth
+│   │   ├── dashboard
+│   │   ├── api
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   │
+│   ├── components
+│   │   ├── ui
+│   │   ├── layout
+│   │   ├── charts
+│   │   └── common
+│   │
+│   ├── firebase
+│   │   └── config.ts
+│   │
+│   ├── hooks
+│   ├── lib
+│   ├── services
+│   ├── styles
+│   ├── types
+│   └── utils
+│
+├── public
+├── docs
+├── package.json
+├── README.md
+└── .env.local
+```
+
+---
+
+# ⚡ Quick Start
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/multimax-ai-growth-studio.git
+```
+
+```bash
+cd multimax-ai-growth-studio
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+or
+
+```bash
+pnpm install
+```
+
+---
+
+## 3️⃣ Configure Environment Variables
+
+Create
+
+```text
+.env.local
+```
+
+Add the following:
 
 ```env
-# Firebase Configuration
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+# Firebase
 
-# Gemini API
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+NEXT_PUBLIC_FIREBASE_API_KEY=
+
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+
+NEXT_PUBLIC_FIREBASE_APP_ID=
+
+# Gemini AI
+
+NEXT_PUBLIC_GEMINI_API_KEY=
 ```
 
-### Step 4: Update Firebase Security Rules
+---
 
-Go to Firestore → Rules and paste:
-
-```javascript
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if request.auth != null;
-    }
-  }
-}
-```
-
-### Step 5: Run the Application
+## 4️⃣ Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
+Open
 
 ```
-src/
-├── app/                          # Next.js app directory
-│   ├── auth/                     # Authentication pages
-│   │   ├── login/
-│   │   └── signup/
-│   ├── dashboard/                # Dashboard pages
-│   │   ├── page.tsx             # Main dashboard
-│   │   ├── business-profile/     # Business profile form
-│   │   ├── analyzer/            # AI Business Analyzer
-│   │   ├── content-generator/    # Content Generator
-│   │   ├── campaign-planner/    # Campaign Planner
-│   │   ├── roi-predictor/       # ROI Predictor
-│   │   ├── analytics/           # Analytics Dashboard
-│   │   ├── assistant/           # AI Marketing Assistant
-│   │   ├── settings/            # Settings page
-│   │   └── layout.tsx          # Dashboard layout
-│   ├── globals.css              # Global styles
-│   ├── layout.tsx               # Root layout
-│   └── page.tsx                 # Landing page
-├── components/                   # React components
-│   ├── layout/                  # Layout components
-│   │   ├── Header.tsx
-│   │   └── Sidebar.tsx
-│   ├── ui/                      # shadcn/ui components
-│   │   ├── button.tsx
-│   │   ├── card.tsx
-│   │   ├── input.tsx
-│   │   ├── label.tsx
-│   │   ├── select.tsx
-│   │   ├── tabs.tsx
-│   │   └── textarea.tsx
-│   ├── demo-banner.tsx          # Demo mode banner
-│   ├── theme-provider.tsx       # Theme provider
-│   └── toast.tsx                # Toast notifications
-├── firebase/                     # Firebase configuration
-│   └── config.ts
-├── hooks/                        # Custom React hooks
-│   └── useAuth.ts
-├── lib/                         # Utility functions
-│   ├── gemini.ts               # Gemini API integration
-│   ├── mock-data.ts            # Mock data for demo mode
-│   └── utils.ts                # Utility functions
-├── services/                     # API services
-│   ├── businessProfile.ts      # Business profile CRUD
-│   ├── campaign.ts             # Campaign CRUD
-│   └── content.ts              # Content CRUD
-└── types/                       # TypeScript types
-    └── index.ts
+http://localhost:3000
 ```
 
-## Deployment
+---
 
-### Deploy to Vercel
+# 🔥 Demo Mode
 
-1. **Push your code to GitHub**
+No Firebase?
 
-2. **Connect to Vercel**
-   - Go to [Vercel](https://vercel.com)
-   - Import your repository
-   - Add environment variables from your `.env.local` file
+No Gemini API?
 
-3. **Deploy**
-   - Vercel will automatically deploy your Next.js app
-   - Your app will be live at `https://your-project.vercel.app`
+No Problem ✅
 
-## Usage
+MultiMax automatically switches into **Demo Mode**, allowing you to explore every feature using realistic mock data.
 
-### Demo Mode
-- Click "Try Demo" on the landing page
-- Explore all features with mock data
-- No configuration required
+Demo includes:
 
-### Production Mode
-1. **Sign up** for an account
-2. **Complete your business profile** with information about your company
-3. **Use AI tools**:
-   - Generate business analysis
-   - Create marketing content
-   - Plan campaigns
-   - Predict ROI
-   - Chat with AI assistant
-4. **Track performance** in the analytics dashboard
+* AI Content Generator
+* Campaign Planner
+* Analytics Dashboard
+* ROI Predictor
+* Business Analyzer
+* AI Assistant
+* Marketing Reports
 
-## Environment Variables
+Perfect for:
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `NEXT_PUBLIC_FIREBASE_API_KEY` | Firebase API key | No (Demo Mode) |
-| `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN` | Firebase auth domain | No (Demo Mode) |
-| `NEXT_PUBLIC_FIREBASE_PROJECT_ID` | Firebase project ID | No (Demo Mode) |
-| `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET` | Firebase storage bucket | No (Demo Mode) |
-| `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID` | Firebase messaging sender ID | No (Demo Mode) |
-| `NEXT_PUBLIC_FIREBASE_APP_ID` | Firebase app ID | No (Demo Mode) |
-| `NEXT_PUBLIC_GEMINI_API_KEY` | Gemini API key | No (Demo Mode) |
+* 🎓 Students
+* 💼 Portfolio Projects
+* 🏆 Hackathon Demonstrations
+* 🧪 Testing
 
-## Scripts
+---
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+# ☁️ Deployment
 
-## Demo Mode Features
+## Deploy to Vercel
 
-When Firebase/Gemini are not configured:
-- App shows "Firebase not configured. Running in Demo Mode" banner
-- Authentication works with mock user
-- All AI features return pre-built mock responses
-- Dashboard displays mock data for campaigns, content, and analytics
-- Perfect for demos, testing, and development
+1. Push code to GitHub
 
-## Contributing
+```bash
+git add .
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+git commit -m "Deploy MultiMax"
 
-## License
+git push origin main
+```
 
-This project is licensed under the MIT License.
+2. Import the repository into **Vercel**
 
-## Support
+3. Add your Environment Variables
 
-For support, email support@multimax.ai or open an issue in the repository.
+4. Click **Deploy**
 
-## Acknowledgments
+---
 
-- Built with [Next.js](https://nextjs.org)
-- UI components from [shadcn/ui](https://ui.shadcn.com)
-- Icons from [Lucide](https://lucide.dev)
-- AI powered by [Google Gemini](https://ai.google.dev)
-- Authentication by [Firebase](https://firebase.google.com)
+🌍 Live Demo
+
+```
+https://multimax-ai-growth-studio.vercel.app
+```
+
+---
+
+# 📱 Responsive Design
+
+Optimized for
+
+* 💻 Desktop
+* 🖥 Laptop
+* 📱 Mobile
+* 📲 Tablet
+
+Supports modern browsers including
+
+* Chrome
+* Edge
+* Firefox
+* Safari
+
+---
+
+# ⚙️ Available Scripts
+
+```bash
+npm run dev
+```
+
+Runs the development server.
+
+---
+
+```bash
+npm run build
+```
+
+Creates a production build.
+
+---
+
+```bash
+npm run start
+```
+
+Runs the production server.
+
+---
+
+```bash
+npm run lint
+```
+
+Checks for linting issues.
+
+---
+
+# 📊 Performance Goals
+
+| Metric                   | Target |
+| ------------------------ | ------ |
+| ⚡ Lighthouse Performance | 95+    |
+| ♿ Accessibility          | 100    |
+| 🔍 SEO                   | 100    |
+| ✅ Best Practices         | 100    |
+
+---
+
+# 🔒 Security
+
+* Firebase Authentication
+* Protected Routes
+* Secure Firestore Rules
+* Environment Variables
+* HTTPS Deployment
+* Client-side Validation
+* Server-side API Protection
+
+---
+
+# 🌟 Core Modules
+
+✅ AI Business Analyzer
+
+✅ Content Generator
+
+✅ Campaign Planner
+
+✅ Analytics Dashboard
+
+✅ ROI Predictor
+
+✅ AI Marketing Assistant
+
+✅ Business Profile Manager
+
+✅ Authentication
+
+✅ Dashboard
+
+---
+
+# 💡 Built For
+
+* 🚀 Startups
+* 🏢 Small Businesses
+* 🎯 Marketing Teams
+* 👨‍💻 Developers
+* 🎨 Freelancers
+* 🎥 Content Creators
+* 📈 Agencies
+* 🎓 Students
+
+---
+
+# ❤️ Open Source
+
+Contributions are welcome!
+
+If you enjoy this project,
+
+⭐ Star this repository
+
+🍴 Fork it
+
+🐛 Report Issues
+
+💡 Suggest Features
+
+🤝 Open Pull Requests
+
+---
+
+---
+
+# 🗺️ Roadmap
+
+## ✅ Completed
+
+* ✅ AI Business Analyzer
+* ✅ AI Content Generator
+* ✅ AI Marketing Assistant
+* ✅ Campaign Planner
+* ✅ ROI Predictor
+* ✅ Analytics Dashboard
+* ✅ Firebase Authentication
+* ✅ Firestore Integration
+* ✅ Responsive Design
+* ✅ Dark & Light Theme
+* ✅ Demo Mode
+* ✅ Vercel Deployment
+
+---
+
+## 🚧 Coming Soon
+
+* 📱 Android App (Capacitor)
+* 🍎 iOS Support
+* 🤝 Team Collaboration
+* 📅 AI Calendar Scheduler
+* 📧 Email Marketing Automation
+* 💬 WhatsApp Marketing
+* 🔗 LinkedIn Auto Posting
+* 📸 Instagram Auto Publishing
+* 🎥 AI Video Script Generator
+* 🖼️ AI Image Generator
+* 🎙️ Voice Assistant
+* 🌍 Multi-language Support
+* 📊 Advanced Business Reports
+* 🤖 AI Workflow Automation
+* 🔌 Plugin Marketplace
+
+---
+
+# 📈 Project Statistics
+
+| Metric                  | Status |
+| ----------------------- | ------ |
+| 🚀 Production Ready     | ✅      |
+| 📱 Responsive           | ✅      |
+| 🌙 Dark Mode            | ✅      |
+| 🔐 Authentication       | ✅      |
+| 🤖 AI Powered           | ✅      |
+| ☁️ Cloud Ready          | ✅      |
+| ⚡ Fast Performance      | ✅      |
+| 🧩 Modular Architecture | ✅      |
+| 📊 Analytics            | ✅      |
+| 📈 ROI Prediction       | ✅      |
+
+---
+
+# 🤝 Contributing
+
+We welcome contributions from the community!
+
+### Getting Started
+
+```bash
+# Fork the repository
+
+# Clone your fork
+
+git clone https://github.com/YOUR_USERNAME/multimax-ai-growth-studio.git
+
+# Create a new branch
+
+git checkout -b feature/amazing-feature
+
+# Commit your changes
+
+git commit -m "Add amazing feature"
+
+# Push to GitHub
+
+git push origin feature/amazing-feature
+```
+
+Finally, open a **Pull Request** 🚀.
+
+---
+
+# 💡 Ways to Contribute
+
+* 🐛 Fix Bugs
+* ✨ Add New Features
+* 📖 Improve Documentation
+* 🎨 Enhance UI/UX
+* ⚡ Improve Performance
+* 🔐 Improve Security
+* 🌍 Add Localization
+* 🧪 Add Tests
+
+Every contribution—big or small—is appreciated.
+
+---
+
+# 📋 Frequently Asked Questions
+
+### ❓ Does this work without Firebase?
+
+✅ Yes. MultiMax automatically switches to **Demo Mode**, so you can explore the platform without configuring Firebase.
+
+---
+
+### ❓ Can I deploy it for free?
+
+✅ Yes.
+
+Supported platforms include:
+
+* Vercel
+* Firebase Hosting
+* Netlify
+
+---
+
+### ❓ Is Gemini AI required?
+
+No.
+
+If Gemini is not configured, the application provides mock AI responses in Demo Mode.
+
+---
+
+### ❓ Is this beginner friendly?
+
+Absolutely. The project is organized with a modular folder structure, making it easier to learn and extend.
+
+---
+
+# 🌟 Why This Project?
+
+Most startups rely on multiple tools for:
+
+* Marketing
+* Analytics
+* Campaign Planning
+* AI Writing
+* Customer Research
+
+**MultiMax AI Growth Studio** brings these capabilities together in a single, modern platform to simplify marketing workflows and help businesses make better decisions.
+
+---
+
+# 🏆 Hackathon Highlights
+
+✔ AI-Powered Solution
+
+✔ Modern Dashboard
+
+✔ Responsive UI
+
+✔ Real-World Use Case
+
+✔ Cloud Deployment
+
+✔ Firebase Integration
+
+✔ Gemini AI Integration
+
+✔ Production-Ready Architecture
+
+✔ Scalable Codebase
+
+✔ Clean User Experience
+
+---
+
+# 🔮 Future Vision
+
+The long-term vision for MultiMax AI Growth Studio is to evolve into a comprehensive AI business operating system that supports entrepreneurs and organizations with:
+
+* Intelligent marketing automation
+* AI-driven business insights
+* Customer engagement
+* Workflow automation
+* Team collaboration
+* Predictive analytics
+* Multi-platform integrations
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use, modify, and distribute it according to the license terms.
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to the technologies and communities that made this project possible:
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Firebase
+* Google Gemini AI
+* shadcn/ui
+* Lucide Icons
+* Recharts
+* Vercel
+* GitHub
+
+---
+
+# 📬 Support
+
+If you find this project useful:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+🐞 Report bugs
+
+💡 Suggest new features
+
+🤝 Submit Pull Requests
+
+Community contributions are always welcome.
+
+---
+
+# 👨‍💻 Author
+
+**Raj**
+
+Founder • Full-Stack Developer • AI Enthusiast
+
+**Vision:** Building intelligent software that helps startups and businesses grow through the power of AI.
+
+---
+
+<div align="center">
+
+# 🚀 MultiMax AI Growth Studio
+
+### Beyond Tech, Beyond Limit.
+
+---
+
+⭐ **If you found this project helpful, consider giving it a Star!**
+
+Made with ❤️ using **Next.js**, **Firebase**, **Gemini AI**, and **TypeScript**
+
+© 2026 MultiMax. All Rights Reserved.
+
+</div>
+
